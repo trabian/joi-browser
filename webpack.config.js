@@ -28,7 +28,9 @@ module.exports = {
   node: {
     crypto: 'empty',
     net: 'empty',
-    dns: 'empty'
+    dns: 'empty',
+    global: true, // Buffer lib
+		Buffer: true
   },
   plugins: [
     // Since moment is now external, we can comment this out
