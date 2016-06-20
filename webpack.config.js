@@ -29,7 +29,7 @@ module.exports = {
     crypto: 'empty',
     net: 'empty',
     dns: 'empty',
-    global: true, // Buffer lib
+    global: false, // Buffer lib
 		Buffer: true
   },
   plugins: [
